@@ -14,14 +14,14 @@ const burguermenuButton = document.querySelector(".burguermenu__button")
     console.log (burguermenuUl)
     console.log (burguermenuButton)
 
-    burguer.addEventListener("click" , function(){
+    burguer.addEventListener("click" , () => {
         burguermenu.classList.add("active")
         burguermenuH2.classList.add("active")
         burguermenuUl.classList.add("active")
 
     })
 
-    burguermenuButton.addEventListener("click" , function(){
+    burguermenuButton.addEventListener("click" , () => {
         burguermenu.classList.remove("active")
         burguermenuH2.classList.remove("active")
         burguermenuUl.classList.remove("active")
